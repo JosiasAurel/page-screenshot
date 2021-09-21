@@ -4,7 +4,9 @@
   "description": "A simple API that screenshots a web page and responds with the image",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc --outDir dist",
+    "start": "node ./dist/index.js"
   },
   "repository": {
     "type": "git",
