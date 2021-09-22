@@ -1,5 +1,5 @@
 import express, { Application, Request, Response } from "express";
-import puppeteer from "puppeteer";
+// import puppeteer from "puppeteer";
 import { writeFileSync, unlinkSync } from "fs";
 import { nanoid } from "nanoid";
 import { screenshot } from "./config";
